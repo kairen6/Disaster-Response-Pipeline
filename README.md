@@ -4,23 +4,24 @@ This project is a message classifier for disaster response by machine learning. 
 
 
 
-Content
+1. Content
 
-Data: two dataset(disaster_categories.cvs and disaster_messages.cvs).
+   1.Data: 
+         1.two dataset(disaster_categories.cvs and disaster_messages.cvs).
 
-one py file (process_data.py), reads in the data, cleans and stores it in a SQL database.
+         2.one py file (process_data.py), reads in the data, cleans and stores it in a SQL database.
 
-one database file (DisasterResponse.db) from transformed and cleaned data.
+         3.one database file (DisasterResponse.db) from transformed and cleaned data.
 
-Model: 
-one py file(train_classifier.py), load data, transform it using natural language processing, run a machine learning model using GridSearchCV.
+    2.Model: 
+         1.one py file(train_classifier.py), load data, transform it using natural language processing, run a machine learning model using            GridSearchCV.
 
-APP: 
-One py file(run.py), include Flask, user interface and display.
-Templates, A folder containing the html templates.
+    3.APP: 
+         1.One py file(run.py), include Flask, user interface and display.
+         2.Templates, A folder containing the html templates.
 
 
-Instructions:
+2. Instructions:
 
 Run the following commands in the project's root directory to set up your database and model.
 
