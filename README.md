@@ -17,7 +17,7 @@ This project is a message classifier for disaster response by machine learning. 
 
     2.Model: 
     
-         1.one py file(train_classifier.py), load data, transform it using natural language processing, run a machine learning model                using GridSearchCV.
+         1.one py file(train_classifier.py), load data, transform it using natural language processing, run a machine learning model
 
     3.APP: 
     
