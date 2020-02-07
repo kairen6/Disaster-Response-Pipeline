@@ -73,8 +73,8 @@ def build_model():
         ('clf', MultiOutputClassifier(RandomForestClassifier()))
         ])
 
-   parameters = {
-        'clf__estimator__n_estimators': [20, 50]
+   parameters = {'clf__estimator__max_depth': [10, 50, None],
+        'clf__estimator__min_samples_leaf':[2, 5, 10]
         }
 
    cv = GridSearchCV(estimator=pipeline, param_grid=parameters, cv=3,n_jobs=-1, verbose=3)
