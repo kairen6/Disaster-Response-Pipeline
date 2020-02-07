@@ -77,7 +77,7 @@ def build_model():
         'clf__estimator__min_samples_leaf':[2, 5, 10]
         }
 
-   cv = GridSearchCV(estimator=pipeline, param_grid=parameters, cv=3,n_jobs=-1, verbose=3)
+   cv = GridSearchCV(pipeline,parameters)
    return cv
 
 
