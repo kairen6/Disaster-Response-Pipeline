@@ -1,4 +1,28 @@
 # Disaster Response Pipeline Project
+This project is a message classifier for disaster response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -12,3 +36,6 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+
+
