@@ -5,9 +5,7 @@ Content
 
 Data:
 two dataset(disaster_categories.cvs and disaster_messages.cvs),
-
 one py file (process_data.py), reads in the data, cleans and stores it in a SQL database.
-
 one database file (DisasterResponse.db) from transformed and cleaned data.
 
 Model:
