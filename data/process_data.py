@@ -24,14 +24,14 @@ def clean_data(df):
     output:
         df : Cleaned dataframe with split categories
         """
-    categorie = df['categories'].str.split(';',expand=True)
-    row = categorie.loc[0]
+    categories = df['categories'].str.split(';',expand=True)
+    row = categories.loc[0]
     category_colnames = row.apply(lambda x:x[:-2])
-    categorie.columns = category_colnames
-    categorie=categorie.replace(to_replace=r'\D*', value='', regex=True) 
-    categorie=categorie.astype(int)
+    categories.columns = category_colnames
+    categories=categories.replace(to_replace=r'\D*', value='', regex=True) 
+    categories=categories.astype(int)
     df.drop('categories',axis=1,inplace=True) 
-    df = pd.concat([df, categorie], axis=1)
+    df = pd.concat([df, categories], axis=1)
     df.drop_duplicates()
     return df 
     
