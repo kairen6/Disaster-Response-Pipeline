@@ -1,7 +1,7 @@
 # Disaster Response Pipeline Project
-This project is a message classifier for disaster response by machine learning.
+This project is a message classifier for disaster response by machine learning. Messages will be classified to 36 catagroies.
 
-#Content
+##Content
 
 
 
