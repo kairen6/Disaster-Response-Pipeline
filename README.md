@@ -2,6 +2,7 @@
 This project is a message classifier for disaster response by machine learning. Messages will be classified to 36 catagroies.
 
 Content
+
 Data:
 two dataset(disaster_categories.cvs and disaster_messages.cvs)
 one py file (process_data.py), reads in the data, cleans and stores it in a SQL database.
